@@ -90,12 +90,21 @@ body {
     padding-bottom:100px;
   }
 
+  .border img {
+    border:20px solid #FFF;
+    border-radius:5px;
+  }
+
   .slideshow {
     cursor:ew-resize;
   }
 
   .book-size img {
     height:50vh;
+  }
+
+  .sq-size img {
+    height:40vh;
   }
 
   .poster-size img {
