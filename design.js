@@ -11,8 +11,8 @@ const tiempoPerdidoImgs = [
 ];
 
 const books24Imgs = [
-  '2024BOOKS.png',
-  '2024BOOKS2.png'
+  '2024BOOKS2.png',
+  '2024BOOKS.png'
 ];
 
 let magicCoordinatesIndex = 0;

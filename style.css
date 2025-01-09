@@ -84,15 +84,26 @@ body {
   .home-item {
     width:100%;
     display:flex;
-    justify-content:center;
-    align-items:center;
+    flex-flow:row nowrap;
     padding-top:20px;
-    padding-bottom:100px;
+    padding-bottom:90px;
   }
 
+    .item-desc {
+      width:25%;
+      font-family:'PP Right Grotesk Mono';
+      font-size:12px;
+    }
+
+    .item-content {
+      width:100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
   .border img {
-    border:20px solid #FFF;
-    border-radius:5px;
+    border:40px solid #FFF;
   }
 
   .slideshow {
@@ -104,11 +115,11 @@ body {
   }
 
   .sq-size img {
-    height:40vh;
+    height:45vh;
   }
 
   .poster-size img {
-    height:75vh;
+    height:70vh;
   }
 
   .logo-size img {
@@ -131,6 +142,7 @@ body {
   padding:20px;
   padding-top:40px;
   font-size:12px;
+  padding-top:10vh;
 }
 
   .info {
