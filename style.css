@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'PP Right Grotesk Mono';
+  src: url('https://euniceyeeun.github.io/portfolio/assets/fonts/PPRightGroteskMono-Regular.otf') format('otf')
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -92,7 +97,7 @@ body {
 
     .item-desc {
       width:25%;
-      /* font-family:'PP Right Grotesk Mono'; */
+      font-family:'PP Right Grotesk Mono',Helvetica;
       font-size:12px;
     }
 
