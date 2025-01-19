@@ -63,11 +63,6 @@ body {
     z-index:1;
   }
 
-  #nav-circle:hover {
-    background-color:#FFF;
-    cursor:pointer;
-  }
-
   .nav {
     /**/padding-bottom:20px;
     /**/position:absolute;
@@ -174,10 +169,6 @@ body {
 
   .proj-link {
     text-decoration: underline;
-  }
-
-  .proj-link:hover {
-    font-style: italic;
   }
 
   .preview {
@@ -287,5 +278,17 @@ body {
 
   .web-size img {
     width:35vw;
+  }
+}
+
+@media (hover:hover) {
+  
+  .proj-link:hover {
+    font-style: italic;
+  }
+
+  #nav-circle:hover {
+    background-color:#FFF;
+    cursor:pointer;
   }
 }

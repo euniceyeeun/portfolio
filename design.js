@@ -46,6 +46,8 @@ const tiempoPerdidoImgs = [
   'Tiempo-Perdido.jpg',
   'Tiempo-Perdido2.jpg',
   'Tiempo-Perdido3.jpg',
+  'Tiempo-Perdido4.jpg',
+  'Tiempo-Perdido5.jpg'
 ];
 
 const books24Imgs = [
