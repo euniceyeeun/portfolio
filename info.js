@@ -35,3 +35,38 @@ function fadeOutNavItems() {
     navItem.style.opacity=0;
   })
 }
+
+// const designer = document.getElementById('designer');
+// const writer = document.getElementById('writer');
+// const filmmaker = document.getElementById('filmmaker');
+// const programmer = document.getElementById('programmer');
+//
+// designer.onclick=function() {
+//   changeImg('designer');
+// };
+// writer.onclick=function() {
+//   changeImg('writer');
+// };
+// filmmaker.onclick=function() {
+//   changeImg('filmmaker');
+// };
+// programmer.onclick=function() {
+//   changeImg('programmer');
+// };
+//
+// function changeImg(occupation) {
+//   switch (occupation) {
+//     case 'designer':
+//       console.log("d");
+//       break;
+//     case 'writer':
+//       console.log("w");
+//       break;
+//     case 'filmmaker':
+//       console.log("f");
+//       break;
+//     case 'programmer':
+//       console.log("p");
+//       break;
+//   }
+// }
