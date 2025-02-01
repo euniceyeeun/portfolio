@@ -42,6 +42,22 @@ const magicCoordinatesImgs = [
   'MAGIC COORDINATES4.png'
 ];
 
+const vagaryImgs = [
+  'vagary.jpg',
+  'vagary1.jpg',
+  'vagary2.jpg',
+  'vagary3.jpg',
+  'vagary4.jpg',
+  'vagary5.jpg',
+  'vagary6.jpg',
+  'vagary7.jpg',
+  'vagary8.jpg',
+  'vagary9.jpg',
+  'vagary10.jpg',
+  'vagary11.jpg',
+  'vagary12.jpg'
+]
+
 const tiempoPerdidoImgs = [
   'Tiempo-Perdido.jpg',
   'Tiempo-Perdido2.jpg',
@@ -62,16 +78,19 @@ const camusImgs = [
 ]
 
 let magicCoordinatesIndex = 0;
+let vagaryIndex = 0;
 let tiempoPerdidoIndex = 0;
 let books24Index = 0;
 let camusIndex = 0;
 
 const magicCoordinates = document.getElementById('magic-coordinates');
+const vagary = document.getElementById('vagary');
 const tiempoPerdido = document.getElementById('tiempo-perdido');
 const books24 = document.getElementById('books-24');
 const camus = document.getElementById('camus');
 
 magicCoordinates.addEventListener('click', function() { changeImage("magicCoordinates") });
+vagary.addEventListener('click', function() { changeImage("vagary") });
 tiempoPerdido.addEventListener('click', function() { changeImage("tiempoPerdido") });
 books24.addEventListener('click', function() { changeImage("books24") });
 camus.addEventListener('click', function() { changeImage("camus") });
@@ -81,6 +100,10 @@ function changeImage(project) {
     case "magicCoordinates":
       magicCoordinatesIndex = (magicCoordinatesIndex + 1) % magicCoordinatesImgs.length;
       magicCoordinates.src = "assets/" + magicCoordinatesImgs[magicCoordinatesIndex];
+      break;
+    case "vagary":
+      vagaryIndex = (vagaryIndex + 1) % vagaryImgs.length;
+      vagary.src = "assets/" + vagaryImgs[vagaryIndex];
       break;
     case "tiempoPerdido":
       tiempoPerdidoIndex = (tiempoPerdidoIndex + 1) % tiempoPerdidoImgs.length;
