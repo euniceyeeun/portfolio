@@ -62,7 +62,7 @@ body {
 
   #banner {
     font-family:'PP Right Grotesk Mono',Helvetica,sans-serif;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
   }
 
 #bg-container {
@@ -203,7 +203,7 @@ body {
     width:65vw;
   }
 
-  .web-size img {
+  .web-size video, .web-size img {
     width:80vw;
   }
 
@@ -326,7 +326,11 @@ body {
     }
 
     .web-size img {
-      width:45vw;
+      width:55vw;
+    }
+
+    .web-size video {
+      width:55vw;
     }
 
     .vertical-vid video {
@@ -354,9 +358,14 @@ body {
     width:50vh;
   }
 
+  .web-size video {
+    width:35vw;
+  }
+
   .web-size img {
     width:35vw;
   }
+
 }
 
 @media (hover:hover) {
