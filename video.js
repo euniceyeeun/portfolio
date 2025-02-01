@@ -63,8 +63,8 @@ function hidePigeonsPreview() {
 }
 
 const ptplVids = [
-  'nachoboulders.mp4',
-  'ptpl-demo.mp4'
+  'ptpl-demo.mp4',
+  'nachoboulders.mp4'
 ];
 
 let ptplIndex = 0;
