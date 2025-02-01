@@ -197,7 +197,7 @@ body {
   }
 
   .slideshow {
-    cursor:ew-resize !important;
+    cursor:url("assets/move-cursor.png") 25 15, auto;
   }
 
   .book-size img {
