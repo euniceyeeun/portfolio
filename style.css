@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'PP Right Grotesk Mono';
-  src: url('../portfolio/assets/fonts/PPRightGroteskMono-Regular.otf') format('otf')
+  src: url('../portfolio/assets/fonts/PPRightGroteskMono-Regular.otf') format('otf');
 }
 
 ::-webkit-scrollbar{
