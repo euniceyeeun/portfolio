@@ -42,6 +42,17 @@ for (let i = 0; i < newPageObjects.length; i++) {
     newPageObjects[i].addEventListener('click', function() { hideArchive(); }, false);
 }
 
+for (let i = 0; i < filmVideos.length; i++) {
+  if (window.matchMedia('(hover: hover)').matches) {
+    filmVideos[i].autoplay = true;
+  }
+  else {
+    filmVideos[i].addEventListener('click', function() {
+      this.paused ? this.play() : this.pause();
+    })
+  }
+}
+
 document.getElementById('film-page').addEventListener('scroll', function() {
   posTestFilm();
 });
@@ -93,6 +104,17 @@ let distanceImgs = document.getElementById('distances-content').querySelectorAll
 let distanceVids = document.getElementById('distances-content').querySelectorAll('video');
 let distanceIframes = document.getElementById('distances-content').querySelectorAll('iframe');
 let distanceCaptions = document.getElementsByClassName('distances-caption');
+
+for (let i = 0; i < distanceVids.length; i++) {
+  if (window.matchMedia('(hover: hover)').matches) {
+    distanceVids[i].autoplay = true;
+  }
+  else {
+    distanceVids[i].addEventListener('click', function() {
+      this.paused ? this.play() : this.pause();
+    })
+  }
+}
 
 function posTestDistances() {
   for (let i = 0; i < distancesDivs.length; i++) {
