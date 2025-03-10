@@ -1,3 +1,28 @@
+window.addEventListener('load', function () {
+    document.getElementById('cover').style.display="none";
+});
+
+setInterval(updateLoadingMsg, 1000);
+
+function updateLoadingMsg() {
+  let loadingMsg = document.getElementById('loading-msg');
+  let loadingMsgString = loadingMsg.textContent;
+  let status = loadingMsgString.split(".").length - 1;
+  if (status == 0) {
+    loadingMsg.textContent = "Loading Contiguous Worlds .";
+  }
+  else if (status == 1) {
+    loadingMsg.textContent = "Loading Contiguous Worlds . .";
+  }
+  else if (status == 2) {
+    loadingMsg.textContent = "Loading Contiguous Worlds . . .";
+  }
+  else {
+    loadingMsg.textContent = "Loading Contiguous Worlds";
+  }
+}
+
+
 let archiveOpen = false;
 
 let distancesPage = false;
