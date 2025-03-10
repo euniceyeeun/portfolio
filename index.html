@@ -10,17 +10,220 @@
   </head>
   <body>
     <div id="home-container">
-      <div id="banner-container">
-        <div id="banner">Quiet Experiments For The Loud Consciousness</div>
-      </div>
-      <div id="bg-container"></div>
       <div class="header">
-        <div class="no-hover name">contiguous worlds</div>
-        <div id="nav-circle"></div>
-        <div class="nav">
-          <a class="nav-item" href="./design">Design</a>
-          <a class="nav-item" href="./video">Video</a>
-          <a class="nav-item" href="./info">Info</a>
+        <div class="name">contiguous worlds</div>
+      </div>
+    </div>
+      <div id="bg-container">
+        <div id="bounce-container">
+        </div>
+        <div id="distances-page" class="new-page">
+          <div class="page-content" id="distances-content">
+            <div id="distances-title">Distances</div>
+            <div id="distances-subtitle">The weather app of relativity for humans who don't share space.</div>
+            <div id="distances-inspo">
+              <img src="assets/distances/clima.jpeg"/>
+              <div id="distances-inspo-text">
+                <div class="distances-header" id="distances-inspo-question">
+                  Which cities are saved on your weather app?
+                </div>
+                <div id="distances-inspo-desc">
+                I was inspired by this single conversation starter.
+                <p>Upon examining my iPhone weather app I realized it was composed of cities beyond the one I live in and those I have visited; it included those that were homes of people I love. Being long-distance from family and friends has been and still is a reality for me, and somehow seeing their weather conditions, their clocks, is a way of bridging a distance, that painful knowledge that we don’t share physical space in this moment and can’t see each other at will.
+                </div>
+              </div>
+            </div>
+            <div id="distances-love">
+              <div class="distances-header" id="distances-love-question">
+                Love makes everything relative.
+              </div>
+              <div id="distances-love-desc">
+                I see my temperature, my wind speeds, my sunset, not as they are but in relation to those of others. Through an attempt to express this relativity was born Distances, the weather app for humans who don’t share space.
+              </div>
+            </div>
+            <div id="distances-demo">
+              <img src="assets/distances/illustrator.png"/>
+              <div class="distances-caption">Initial UI mockup on Adobe Illustrator</div>
+              <video autoplay muted loop>
+                <source src="assets/distances/distances1.mp4" type="video/mp4">
+              </video>
+              <div class="distances-caption">I created an interactive homepage which reflects the mood of the application. To retain the illusion of a gradient background, I created a feathered circle which follows the cursor.</div>
+              <iframe src="https://editor.p5js.org/contiguousworlds/full/7-W8KNdLz"></iframe>
+              <div class="distances-caption">I first tested this in p5.js.</div>
+              <video autoplay muted loop>
+                <source src="assets/distances/distances2.mp4" type="video/mp4">
+              </video>
+              <div class="distances-caption">I used the Geolocation API to retrieve the user's location. Meanwhile, the user can enter the location of the person whose weather they want to observe.</div>
+              <video autoplay muted loop>
+                <source src="assets/distances/distances3.mp4" type="video/mp4">
+              </video>
+              <div class="distances-caption">I used Google's Reverse geocoding API and OpenWeather's Weather API to retrieve the weather conditions of the user and the other person. Not only are the weather conditions displayed, but clicking on each element calculates a "distance," for instance the difference in temperature.</div>
+              <video autoplay muted loop>
+                <source src="assets/distances/distances4.mp4" type="video/mp4">
+              </video>
+              <div class="distances-caption">I wanted to create a responsive application; one way I implemented this is by having the gradient background change by taking into account the current time and sunrise & sunset times.</div>
+              <img src="assets/distances/illustrator2.png"/>
+              <div class="distances-caption">My initial visual brainstorm of the changing gradient.</div>
+              <video autoplay muted loop>
+                <source src="assets/distances/distances5.mp4" type="video/mp4">
+              </video>
+              <div class="distances-caption">I also have these cloud & wind animations reflect the % ocloudiness and wind speed in each location.</div>
+              <div id="p5js">
+                <iframe src="https://editor.p5js.org/contiguousworlds/full/mGHd0tphr"></iframe>
+                <iframe src="https://editor.p5js.org/contiguousworlds/full/BBMKB_ZWE"></iframe>
+              </div>
+              <div class="distances-caption">I created the cloud and wind animations with p5.js (the above canvases are my drafts to determine how to achieve the desired visual). In the code used in the webpage, the # of circles and speed of the moving lines are affected by variables once the weather data is fetched.</div>
+              <img src="assets/distances/distances.png" class="distances-final-img"/>
+              <img src="assets/distances/distances2.png" class="distances-final-img"/>
+            </div>
+            <div id="distances-fin">
+              <div id="distances-fin-text-1">The final product is dedicated to my friends & family who I can't always see but think about constantly. When I imagine the weather through your eyes it makes our distance feel a little closer.</div>
+              <div id="distances-fin-text-2">While this project is not yet live, feel free to contact me if you are curious about my code or process!</div>
+            </div>
+          </div>
+        </div>
+        <div id="ptpl-page" class="new-page">
+          <div class="page-content" id="ptpl-content">
+            <div id="ptpl-phone-bg-container">
+              <div id="ptpl-phone-bg"></div>
+            </div>
+            <div id="ptpl-phone-container">
+              <div id="ptpl-phone-text">
+                <div id="ptpl-phone-text-title">PORTALS</div>
+                <div id="ptpl-phone-text-subtitle">TO PAST LIVES</div>
+                <div id="ptpl-phone-text-desc-1"><i>portals to past lives</i> is an ongoing collection of moments lived and recorded. It is an exploration of the way digital documentation allows access to our former selves and sentiments in the form of limited glimpses, familiar sounds, and floating memories.
+                </div>
+                <div id="ptpl-phone-text-desc-2">As humans we are constantly mourning not just the loss of others but the loss of ourselves, the moments we can never return to. Yet there are instants when our memories are triggered involuntarily despite their fallibility. Beyond the taste of a madeleine as once written by Proust, the proliferation of the cell phone video has allowed us to create these access portals to our past lives through digital documentation. Here are some of mine.
+                </div>
+                <div id="ptpl-phone-text-link"><u><a target="_blank" href="https://euniceyeeun.github.io/portalstopastlives/">link to project</a></u></div>
+              </div>
+              <div id="ptpl-button-bg">
+                <div id="ptpl-button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="film-page" class="new-page">
+          <div class="page-content" id="film-content">
+            <div class="film-content-row">
+              <video autoplay muted loop>
+                <source src="assets/epc1.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/ball2.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/super84.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/pigeons3.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/epc4.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/exp2.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/anim.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/pigeons2.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/super82.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/epc3.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/exp4.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/super823.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="film-content-row">
+              <video autoplay muted loop>
+                <source src="assets/pigeons1.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/super81.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/epc5.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/epc7.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/books.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/pigeons4.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/epc6.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/epc2.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/ball1.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/outside.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/exp5.mp4" type="video/mp4">
+              </video>
+              <video autoplay muted loop>
+                <source src="assets/dream.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+        <div id="info-page" class="new-page">
+          <div class="page-content" id="info-content">
+            <div id="bio">
+              Eunice Yeeun Kim is an interdisciplinary artist who enjoys experimenting with video, code, and other digital and tactile mediums.<p>She is interested in exploring empathy in our digital era + the human experience as a contiguity with other worlds.<p>In her free time she enjoys cooking for friends, climbing rocks, and learning foreign languages.<p style="font-size:10px;">This site was hand-coded in February 2025.
+            </div>
+            <div id="current">
+              <div id="what-im-reading">
+                <div class="slider-label">WHAT I'M READING</div>
+                <input type="range" min="1" max="4" value="1" class="slider" id="book-slider">
+                <div class="img-container"><img src="assets/books/technoskepticism.jpeg"/ id="books-display"></div>
+              </div>
+              <div id="what-im-working-on">
+                <div class="slider-label">WHAT I'M WORKING ON</div>
+                <input type="range" min="1" max="4" value="1" class="slider" id="ongoing-slider">
+                <div class="img-container">
+                  <img src="assets/ongoing/100k.png"/ id="ongoing-display">
+                  <div id="ongoing-caption">100K24H, a documented walk around NYC</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="nav-container">
+          <div class="nav-tab" id="distances-tab">
+            distances, the weather app for humans who don't share space
+          </div>
+          <div class="nav-tab" id="ptpl-tab">
+            portals to past lives, a digital archive
+          </div>
+          <div class="nav-tab" id="film-tab">
+            film & video, scraps through the lens
+          </div>
+          <div class="nav-tab" id="info-tab">
+            INFO
+          </div>
+          <div class="nav-tab" id="home-tab">
+            HOME
+          </div>
+          <div id="archive-tab">
+            <span>ARCHIVE</span><span id="quiet-exp">(Quiet Experiments for the Loud Consciousness)</span>
+          </div>
         </div>
       </div>
   </body>
