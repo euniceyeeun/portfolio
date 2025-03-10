@@ -47,6 +47,7 @@ for (let i = 0; i < filmVideos.length; i++) {
     filmVideos[i].autoplay = true;
   }
   else {
+    filmVideos[i].controls = true;
     filmVideos[i].addEventListener('click', function() {
       this.paused ? this.play() : this.pause();
     })
@@ -110,6 +111,7 @@ for (let i = 0; i < distanceVids.length; i++) {
     distanceVids[i].autoplay = true;
   }
   else {
+    distanceVids[i].controls = true;
     distanceVids[i].addEventListener('click', function() {
       this.paused ? this.play() : this.pause();
     })
