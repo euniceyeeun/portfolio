@@ -485,16 +485,13 @@ bookSlider.addEventListener("input", function() {
   let newBook = "";
   switch (bookSlider.value) {
     case '1':
-      newBook="technoskepticism.jpeg";
+      newBook="1.jpg";
       break;
     case '2':
-      newBook="whitenights.jpg";
+      newBook="2.jpg";
       break;
     case '3':
-      newBook="philosophyoftranslation.jpg";
-      break;
-    case '4':
-      newBook="thecityanditsuncertainwalls.jpg";
+      newBook="3.jpg";
       break;
   }
   document.getElementById('books-display').src=`assets/books/${newBook}`;
@@ -505,8 +502,8 @@ ongoingSlider.addEventListener("input", function() {
   let newCaption = "";
   switch (ongoingSlider.value) {
     case '1':
-      newProj="100k.png";
-      newCaption="100K24H, a documented walk around NYC";
+      newProj="MI.png";
+      newCaption="Mysterious Illnesses, a zine";
       break;
     case '2':
       newProj="symposium.png";
