@@ -506,8 +506,8 @@ ongoingSlider.addEventListener("input", function() {
       newCaption="Mysterious Illnesses, a zine";
       break;
     case '2':
-      newProj="symposium.png";
-      newCaption="website for SYMPOSIUM PICTURES";
+      newProj="boldr.png";
+      newCaption="boldr, a digital diary for climbers";
       break;
     case '3':
       newProj="cabinet.png";
